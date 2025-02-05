@@ -6,7 +6,7 @@ import daStyle from 'eslint-config-dicodingacademy';
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   daStyle,
-  { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },
+  { files: ['**/*.js'], languageOptions: { sourceType: 'script' } },
   { languageOptions: { globals: globals.node } },
   pluginJs.configs.recommended,
 ];
