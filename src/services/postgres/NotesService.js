@@ -94,4 +94,5 @@ class NotesService {
     }
   }
 }
+
 module.exports = NotesService;
