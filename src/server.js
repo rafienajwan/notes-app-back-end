@@ -134,8 +134,6 @@ const init = async () => {
     // mendapatkan konteks response dari request
     const { response } = request;
 
-    console.log(response);
-
     // penanganan client error secara internal.
     if (response instanceof ClientError) {
       const newResponse = h.response({
